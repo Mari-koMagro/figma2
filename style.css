@@ -1,0 +1,146 @@
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 20px; */
+    padding-left: 20px;
+    width: 1420px;
+    height: 96px;
+}
+sup {
+    font-size: 12px;
+}
+nav a {
+    color: black;
+    padding-right: 20px;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+.button1 {
+    /* margin: 25px; */
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    padding: 17px 32px;
+    border: none;
+    margin: 10px 25px 25px 0px;
+}
+.button2 {
+    border-radius: 25px;
+    border: none;
+    padding: 17px 32px;
+
+}
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 1440px;
+    height: 348px;
+    align-items: center;
+}
+.form {
+    background-color: rgb(60, 59, 59);
+    border: none;
+    border-radius: 36px;
+    width: 344px;
+    height: 30px;
+    padding: 16px 18px;
+}
+/* .table {
+    background-color: rgb(23, 129, 222);
+    padding: 5px 100px;
+} */
+th {
+    padding-right: 80px;
+}
+.join {
+    color: gray;
+}
+.savardzeli {
+    width: 535px;
+    height: 428px;
+    padding: 16px 8px;
+    border-radius: 36px;
+}
+.main1 {
+    display: flex;
+    width: 1440px;
+    justify-content: center;
+    /* padding-left: 30px; */
+    /* background-color: rgb(15, 15, 15); */
+}
+.action {
+    padding: 100px 30px;
+    margin-right: 150px;
+}
+.page {
+    display: flex;
+    margin-top: 50px;
+}
+.feature {
+    /* background-color: rgb(161, 227, 205); */
+    display: flex;
+    width: 1040px;
+    /* height: 206px; */
+    padding: 50px 200px;
+}
+.child {
+    margin-right: 50px;
+}
+.a {
+    display: flex;
+}
+.wre {
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+    background-color: black;
+    border-radius: 50px;
+}
+.paragraph {
+    padding: 0 20px;
+}
+.main2 {
+    display: flex;
+    width: 1440px;
+    /* justify-content: space-around; */
+    /* padding-left: 30px; */
+    background-color: black;
+    color: white;
+}
+.list {
+    align-self: center;
+}
+.taroebi {
+    width: 535px;
+    height: 428px;
+    border-radius: 80px;
+    margin: 80px 170px;
+}
+.tagline {
+    display: flex;
+    width: 1440px;
+    height: 550px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    /* background-color: brown; */
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0,0,0, 0.6);
+    /* opacity: 0.5; */
+}
+.saxli {
+    position: relative;
+    overflow: hidden;
+}
+.saxli img {
+    position: absolute;
+    top: -500px;
+    width: 1440px;
+    z-index: -1;
+}
